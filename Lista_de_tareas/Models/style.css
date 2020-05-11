@@ -1,0 +1,77 @@
+*{box-sizing: border-box;}
+
+@media(min-width: 0px){
+    .col_1s{width: 8.33%;}
+    .col_2s{ width: 16.66%;}
+    .col_3s{ width: 25%;}
+    .col_4s{ width: 33.33%;}
+    .col_5s{width: 41.66%;}
+    .col_6s{width: 50%;}
+    .col_7s{width: 58.33%;}
+    .col_8s{width: 66.66%;}
+    .col_9s{width: 75%;}
+    .col_10s{width: 83.33%;}
+    .col_11s{width: 91.66%;}
+    .col_12s{width: 100%;}
+}
+
+@media(min-width: 768px){
+    .col_1m{width: 8.33%;}
+    .col_2m{ width: 16.66%;}
+    .col_3m{ width: 25%;}
+    .col_4m{ width: 33.33%;}
+    .col_5m{width: 41.66%;}
+    .col_6m{width: 50%;}
+    .col_7m{width: 58.33%;}
+    .col_8m{width: 66.66%;}
+    .col_9m{width: 75%;}
+    .col_10m{width: 83.33%;}
+    .col_11m{width: 91.66%;}
+    .col_12m{width: 100%;}
+}
+[class*="col_"]{
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.teal{
+    color: aliceblue;
+    background-color: teal;
+    text-align: center;
+}
+.piePagina{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+}
+.encabezadoPagina{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.styleCategoriaOptions{
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+}
+.tituloTarea{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0px 0px 0px 0px;
+}
+.categoriaTarea{
+    text-align: right;
+    color: grey;
+    font-size: 0.8em;
+    padding: 0px 95px 0px 0px;
+    margin: 0px;
+}
+.descripcionTarea{
+    text-align: left;
+    font-size: 1em;
+}
